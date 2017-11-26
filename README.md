@@ -16,5 +16,5 @@ A selection:
   * [Phylogenetic tree (newick) viewer](http://etetoolkit.org/treeview/) - an interactive example
   * [Phylome DB](http://phylomedb.org/?q=search_tree&seqid=YBL058W) - another interactive example
 * [NCBI Taxonomy Browser](https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/) - a lot information for each taxa
-* [taxa-browser](https://github.com/UW-Macrostrat/taxa-browser) - Shows ancestors for a given species 
+* [PaleobioDB Taxa Browser](https://github.com/UW-Macrostrat/taxa-browser) - Shows ancestors for a given species 
   and statistics for the descendants, very simple user interface, fetches data from paleobiodb.org
