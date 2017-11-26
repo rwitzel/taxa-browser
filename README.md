@@ -1,4 +1,4 @@
-# taxa-browser
+An interactive [Taxa Browser](https://rwitzel.github.io/taxa-browser/).
 
 ## Data source
 
@@ -18,3 +18,16 @@ A selection:
 * [NCBI Taxonomy Browser](https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/) - a lot information for each taxa
 * [PaleobioDB Taxa Browser](https://github.com/UW-Macrostrat/taxa-browser) - Shows ancestors for a given species 
   and statistics for the descendants, very simple user interface, fetches data from paleobiodb.org
+
+
+### Developing
+
+If you want to view the pages locally, run a local HTTP server via docker-compose:
+
+First [install docker-compose](https://docs.docker.com/compose/install/).
+
+Then run
+
+    docker-compose up --build
+     
+Then open [http://localhost:8081/index.html](http://localhost:8081/index.html) in a web browser.

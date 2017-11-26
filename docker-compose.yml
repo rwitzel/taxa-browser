@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  taxa-browser:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ".:/application/contents"
+    ports:
+      - "8081:8081"
